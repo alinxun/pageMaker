@@ -15,7 +15,7 @@ define([
 
     var _loop = function _loop(i) {
         list[_arguments[i].name] = function () {
-            return _arguments[i];
+            return JSON.parse(JSON.stringify(_arguments[i]));
         };
       };
       

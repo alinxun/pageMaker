@@ -1,3 +1,4 @@
-<div>
-    <li v-for="el in data.list">{{el}}</li>
+<div :style="{'background-color':data.bgc||''}">
+    <div>hahah{{data.b}}</div>
+    <li v-for="(el, index) in data.list">{{index}}---{{el}}</li>
 </div>

@@ -68,7 +68,8 @@ define([
                 this.view.push(_defaults[this.select_ui]())
             },
             addEl:function(){
-                this.current_form.data.list.push(this.listAddEl)
+                this.current_form.data.list.push(this.listAddEl);
+                this.listAddEl = "";
             }
         }
 

@@ -3,7 +3,8 @@ define(function(){
         name:'ui_ad2',
         data:{
             b:'3',
-            list:[1,2,3,4]
+            list:[1,2,3,4],
+            bgc:'red'
         }
     }
 });
